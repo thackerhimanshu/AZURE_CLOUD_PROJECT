@@ -1,0 +1,8 @@
+#!/bin/bash
+#script for  march 15 with time loss and dealer #
+
+echo "script has been ran sucessfully for march 15  08:00am"
+
+grep "0315" ./Player_Analysis/Roulette_Losses|grep '08:00:00 AM'|awk '{ print $1,$2,$3 }' >> Dealers_Working_during_losses  
+grep '08:00:00 AM' ./Dealer_Analysis/MARCH10ROULETTESCHEDULE |awk '{ print $3,$4 }' >> Dealers_Working_during_losses
+
