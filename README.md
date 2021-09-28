@@ -96,11 +96,11 @@ These Beats allow us to collect the following information from each machine:
 
 --Filebeat collects the changes done.  
 
-screenshot path: AZURE_CLOUD_PROJECT\DIAGRAMS\filebeat
+screenshot path: AZURE_CLOUD_PROJECT/DIAGRAMS/filebeat.png
 
 --Metric beat collects metrics and statistics
 
-screenshot path:AZURE_CLOUD_PROJECT/DIAGRAMS/metricbeat
+screenshot path:AZURE_CLOUD_PROJECT/DIAGRAMS/metricbeat.png
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
