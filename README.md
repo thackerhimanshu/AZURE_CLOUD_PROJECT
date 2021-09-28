@@ -4,7 +4,7 @@ Project for assignment for cloud architecture and description
 
 The files in this repository were used to configure the network depicted below.
 
-(AZURE_CLOUD_PROJECT/DIAGRAMS/PROJECT13_UPDATED.drawio)
+(DIAGRAMS/PROJECT13_UPDATED.drawio)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the /etc/ansible/elk_docker.yml file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -80,7 +80,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-(AZURE_CLOUD_PROJECT/DIAGRAMS/docker_elk_container.png)
+(DIAGRAMS/docker_elk_container.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -96,11 +96,11 @@ These Beats allow us to collect the following information from each machine:
 
 --Filebeat collects the changes done.  
 
-screenshot path: AZURE_CLOUD_PROJECT/DIAGRAMS/filebeat.png
+screenshot path: (DIAGRAMS/filebeat.png)
 
 --Metric beat collects metrics and statistics
 
-screenshot path:AZURE_CLOUD_PROJECT/DIAGRAMS/metricbeat.png
+screenshot path:(DIAGRAMS/metricbeat.png)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
